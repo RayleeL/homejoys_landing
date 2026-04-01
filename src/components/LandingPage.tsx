@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Hero } from './Hero';
 import { Assortment } from './Assortment';
 import { About } from './About';
@@ -9,6 +9,10 @@ import { Contacts } from './Contacts';
 import { Gallery } from './Gallery';
 
 export const LandingPage: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Hero />
