@@ -15,14 +15,30 @@ export const LandingPage: React.FC = () => {
 
   return (
     <>
-      <Hero />
-      <Assortment />
-      <About />
-      <WhyUs />
-      <PreOrder />
-      <Reviews />
-      <Gallery />
-      <Contacts />
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="assortment">
+        <Assortment />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="why-us">
+        <WhyUs />
+      </section>
+      <section id="preorder">
+        <PreOrder />
+      </section>
+      <section id="reviews">
+        <Reviews />
+      </section>
+      <section id="gallery">
+        <Gallery />
+      </section>
+      <section id="contacts">
+        <Contacts />
+      </section>
     </>
   );
 };
