@@ -6,12 +6,12 @@ import { cn } from '../lib/utils';
 import { useCart } from '../context/CartContext';
 
 const navItems = [
-  { name: 'Главная', href: '/#home' },
-  { name: 'Ассортимент', href: '/#assortment' },
-  { name: 'О нас', href: '/#about' },
-  { name: 'Почему мы', href: '/#why-us' },
-  { name: 'Отзывы', href: '/#reviews' },
-  { name: 'Контакты', href: '/#contacts' },
+  { name: 'Главная', href: '#home' },
+  { name: 'Ассортимент', href: '#assortment' },
+  { name: 'О нас', href: '#about' },
+  { name: 'Почему мы', href: '#why-us' },
+  { name: 'Отзывы', href: '#reviews' },
+  { name: 'Контакты', href: '#contacts' },
 ];
 
 export const Header: React.FC = () => {
