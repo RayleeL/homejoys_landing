@@ -9,10 +9,10 @@ import { CartProvider } from './context/CartContext';
 export default function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
-        <div className="min-h-screen selection:bg-bakery-terracotta selection:text-white">
+      <BrowserRouter basename="/homejoys_landing">
+        <div className="min-h-screen flex flex-col">
           <Header />
-          <main>
+          <main className="flex-1">
             <Routes>
               <Route path="/" element={<LandingPage />} />
               <Route path="/cart" element={<CartPage />} />
