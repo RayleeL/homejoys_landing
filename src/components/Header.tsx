@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link to="/" className="flex flex-col">
+        <Link to="/homejoys_landing/" className="flex flex-col">
           <span className="text-2xl md:text-3xl font-serif font-bold text-bakery-caramel leading-none">
             Домашние радости
           </span>
